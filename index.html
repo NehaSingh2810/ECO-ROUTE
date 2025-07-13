@@ -3,6 +3,7 @@
 <head>
     <script>
 // Only run if not already on welcome page:
+        //major work
 if (!sessionStorage.getItem('welcome_shown')) {
     window.location.href = "welcome.html";
 }
@@ -144,6 +145,9 @@ if (!sessionStorage.getItem('welcome_shown')) {
           background: var(--header-bg);
         }
 
+
+
+        
         .glass {
           background: var(--glass-bg) !important;
           color: var(--text-main);
@@ -326,6 +330,10 @@ function applyTheme(theme) {
         }
     }
 }
+
+
+
+        
 window.addEventListener('DOMContentLoaded', function() {
     const theme = localStorage.getItem('sgb_theme') || 'auto';
     applyTheme(theme);
