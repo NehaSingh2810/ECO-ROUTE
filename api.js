@@ -1,4 +1,8 @@
 // Placeholder for API logic (to be implemented)
+
+
+
+//Frontened API
 // API client for frontend
 
 const API_BASE = "http://localhost:5000/api"; // Adjust if deploying
